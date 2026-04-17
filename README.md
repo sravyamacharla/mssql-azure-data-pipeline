@@ -1,1 +1,0 @@
-# mssql-azure-data-pipeline

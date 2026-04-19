@@ -5,7 +5,7 @@ sales data to Azure cloud using medallion architecture.
 
 ## Architecture
 MSSQL → ADF (watermark) → ADLS Bronze → Databricks PySpark
-→ ADLS Silver (Delta) → Databricks → ADLS Gold (Delta) → MSSQL
+→ ADLS Silver (Delta) → Databricks → ADLS Gold (Delta) → Azure SQL
 
 ## Tech Stack
 - Source: SQL Server (MSSQL) — 10,000 sales orders

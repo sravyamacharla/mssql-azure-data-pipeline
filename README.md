@@ -21,7 +21,3 @@ MSSQL → ADF (watermark) → ADLS Bronze → Databricks PySpark
 - Delta Lake with year/month partitioning
 - Gold aggregations: monthly revenue by region, top products
 - JDBC write-back to close the loop
-
-## Screenshots
-[Pipeline Succeeded](screenshots/01_pipeline_succeeded.png)
-[Gold in SSMS](screenshots/05_gold_in_ssms.png)
